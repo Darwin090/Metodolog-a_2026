@@ -24,21 +24,3 @@ El capítulo "Contribución de las Redes Neuronales Artificiales al Reconocimien
 1. **Extracción de artículos**: Utilizando la `Matriz de Extracción de Artículos Científicos.pdf` como plantilla, se identificaron 37 referencias bibliográficas relevantes desde bases de datos IEEE Xplore, Scopus y Google Scholar.
 
 2. **Redacción del contenido**: El texto del capítulo se organizó en secciones secuenciales: Introducción, Fundamentos Teóricos (Reconocimiento de patrones, Redes neuronales, Funciones de activación, Proceso de aprendizaje, Deep Learning, Variantes), Metodología y Análisis de la Literatura, Aplicaciones, Comparación de estudios, Ventajas, Limitaciones, Métricas, Discusión, Oportunidades futuras y Conclusiones.
-
-3. **Sistema de citación IEEE**: 
-   - Cada referencia recibió un número `[1]` a `[37]` según su primera aparición en el texto.
-   - La misma referencia reutiliza el mismo número en todas sus apariciones.
-   - La última cita del texto es `[37]` (ubicada en la sección Oportunidades futuras).
-   - Las Conclusiones no contienen citas.
-
-4. **Archivo de bibliografía**: `export_numerado.bib` contiene las 37 referencias en formato BibTeX.
-
-### Compilación del documento
-
-Para generar el PDF del capítulo:
-
-```bash
-pdflatex capitulo25_redes_neuronales.tex
-bibtex capitulo25_redes_neuronales
-pdflatex capitulo25_redes_neuronales.tex
-pdflatex capitulo25_redes_neuronales.tex
